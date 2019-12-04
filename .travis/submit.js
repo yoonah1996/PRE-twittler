@@ -56,8 +56,8 @@ req.write(
       title: "Twittler",
       githubUsername: username,
       lambdaKey: LAMBDA_KEY,
-      passed,
-      failed,
+      passed: 0,
+      failed: 0,
       assessmentId: 3
     }
   )
